@@ -43,15 +43,15 @@ int TOUCH_NOSHOW_LOG = 0;
 	check the values returned by on screen touch output by click on the 
 	touch panel extremeties
 */
-int maxX = 0;		
-int maxY = 0;		
+int maxX = 540;		
+int maxY = 960;		
 
 /*
 	the values of following two variables are dependent on specifc device resolution
 	and can be obtained using the outputs of the gr_fb functions
 */
-int resX = 0;		
-int resY = 0;		
+int resX = 554;		
+int resY = 964;		
 
 /*
 	set the following value to restrict the touch boundaries so that
