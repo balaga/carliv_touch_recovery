@@ -70,7 +70,7 @@ static int gShowBackButton = 0;
 #define CHAR_HEIGHT 30
 
 #define UI_WAIT_KEY_TIMEOUT_SEC    3600
-#define UI_KEY_REPEAT_INTERVAL 40
+#define UI_KEY_REPEAT_INTERVAL 80
 #define UI_KEY_WAIT_REPEAT 400
 
 UIParameters ui_parameters = {
