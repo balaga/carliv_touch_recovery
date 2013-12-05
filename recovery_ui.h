@@ -71,7 +71,6 @@ int device_wipe_data();
 #define HIGHLIGHT_DOWN      -3
 #define SELECT_ITEM         -4
 #define GO_BACK             -5
-#define HOME_MENU           -6
 
 // main menu items for prompt_and_wait()
 #define ITEM_REBOOT          0
