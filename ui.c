@@ -1379,7 +1379,7 @@ int ui_handle_key(int key, int visible) {
 #ifdef BOARD_TOUCH_RECOVERY
     return touch_handle_key(key, visible);
 #else
-    return device_handle_key(key->code, visible);
+    return device_handle_key(key, visible);
 #endif
 }
 
